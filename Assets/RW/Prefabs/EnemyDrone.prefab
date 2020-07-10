@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 6946499096068384671}
   - component: {fileID: 88305169870551029}
   - component: {fileID: 1063967049552649348}
+  - component: {fileID: 2194005130803075864}
   m_Layer: 0
   m_Name: EnemyDrone
   m_TagString: Untagged
@@ -107,3 +108,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
+--- !u!114 &2194005130803075864
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8672307886139396931}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbdc59cc2e45cf4458f88bc5cd64d752, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
