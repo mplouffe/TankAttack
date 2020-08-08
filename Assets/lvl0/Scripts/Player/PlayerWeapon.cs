@@ -75,15 +75,6 @@ public class PlayerWeapon : MonoBehaviour
         bulletEntityPrefab = GameObjectConversionUtility.ConvertGameObjectHierarchy(bulletPrefab, settings);
     }
 
-    public void FireBulletNonECS()
-    {
-        // instantiates a GameObject prefab to fire a bullet
-        GameObject instance = Instantiate(bulletPrefab, muzzleTransform.position, muzzleTransform.rotation, null);
-
-        // plays one-shot sound (pew pew pew!)
-        soundFXSource?.Play();
-    }
-
     public virtual void FireBullet()
     {
         // create an entity based on the entity prefab
